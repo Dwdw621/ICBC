@@ -15,7 +15,7 @@ driver = webdriver.Edge(service=service, options=edge_options)
 # Login to ICBC
 driver.get("https://onlinebusiness.icbc.com/webdeas-ui/login;type=driver")
 driver.find_element(By.ID, "mat-input-0").send_keys("Wang")
-driver.find_element(By.ID, "mat-input-1").send_keys("2569783")
+driver.find_element(By.ID, "mat-input-1").send_keys("")
 driver.find_element(By.ID, "mat-input-2").send_keys("Dang")
 driver.find_element(By.XPATH,
                     "/html/body/app-root/app-login/mat-card/mat-card-content/form/span[2]/div[3]/mat-checkbox/label/span[1]").click()
